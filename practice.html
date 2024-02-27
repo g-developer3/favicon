@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+          <!--  for Dark favicon -->
+ <!--   <link rel="apple-touch-icon" sizes="180x180" href="favicon_Dark/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon_Dark/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon_Dark/favicon-16x16.png">
+<link rel="manifest" href="favicon_Dark/site.webmanifest">
+<link rel="mask-icon" href="favicon_Dark/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">  -->
+          <!-- for Light favicon -->
+<link rel="icon" type="image/png" sizes="32x32" href="favicon_light/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon_light/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon_light/favicon-16x16.png">
+<link rel="manifest" href="favicon_light/site.webmanifest">
+<link rel="mask-icon" href="favicon_light/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+  <title>Apna collage practice</title>
+ </head>
+ <body>
+  <header>
+    <h1>G Developer</h1>
+          <!-- navbar -->
+    <!-- <nav>
+      <ul>
+        <li>Home</li>
+        <li>Contact</li>
+        <li>More</li>
+      </ul>
+    </nav> -->
+    <a href="">Home</a>
+    <a href="">About</a>
+    <a href="">Products</a>
+    <a href="">Contacts</a>
+    <hr>
+  </header>
+              <!-- main -->
+<main>
+  <section>
+    <h1>It's my html practice file</h1>
+    <h2>It's my heading h2</h2>   
+    <h3>It's my heading h3</h3>
+    <h4>It's my heading h4</h4>
+    <h5>It's my heading h5</h5>
+    <h6>It's my heading h6</h6>
+    <p>that all i filled on up that call heading its mostly work in when you use main heading of the page.</p>
+  </section>
+  <article>
+    <ol>
+      <li>Html</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React Js</li>
+      <li>MongoDB</li>
+      <li>Express Js</li>
+      <li>Node Js</li>
+    </ol>
+  </article>
+  <section>
+    <h4>To do list</h4>
+          <!-- Unorder list -->
+    <ul>
+      <li>Sign Up</li>
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+      <ul>
+        <li>Phone no.</li>
+        <li>Adress</li>
+        <li>City</li>
+        <li>State</li>
+      </ul>
+      <li>Exit</li>
+    </ul>
+          <!-- Orderlist -->
+    <ol>
+      <li>Scooter</li>
+      <ul>
+        <li>Drive belt</li>
+        <li>Brake Cable</li>
+        <li>Brake Shoe</li>
+      </ul>
+      <li>Bike</li>
+      <ul>
+        <li>Chain kit</li>
+        <li>Brake Rod</li>
+        <li>Drum Rubber</li>
+      </ul>
+      <li>Sport Bike</li>
+      <ol>
+        <li>Armeture</li>
+        <li>Self Motor</li>
+        <li>Engine Oil</li>
+      </ol>
+    </ol>
+        <!-- Description list -->
+        <ul>
+          <li>dl - Description list</li>
+          <li>dt - Description term</li>
+          <li>dd - Description defination</li>
+        </ul>
+        
+<dl>
+  <dt>dragon</dt>
+  <dd>Dragon have big wings with giant Thorns on the skin</dd>
+  <dt>phonix</dt>
+  <dd>phonix have big wings with giant Thorns on the skin</dd>
+  <dt>vampire</dt>
+  <dd>vampire have big wings with giant Thorns on the skin</dd>
+  <dt>werewolf</dt>
+  <dd>werewolf have big wings with giant Thorns on the skin</dd>
+</dl>
+        <!-- table list -->
+        <table border="1">
+          <thead>
+            <tr align="center">
+              <th width="100">Sunday</th>
+              <th>Monday</th>
+              <th>Tuesday</th>
+              <th>Wednesday</th>
+              <th>Thursday</th>
+              <th>Friday</th>
+              <th>Saturday</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr align="center">
+              <td>Closed</td>
+              <td>9-5</td>
+              <td>9-5</td>
+              <td>9-5</td>
+              <td>9-5</td>
+              <td>9-5</td>
+              <td>9-5</td>
+            </tr>
+          </tbody>
+        </table>
+              <!-- form  -->
+<br>
+<br>
+  <form action="/action.php" method="post" enctype="multipart/form-data">
+    <label for="User-name">User Name:</label>
+    <input type="text" id="User-name" placeholder="User Name" minlength="3" maxlength="15" required><br><br>
+
+    <label for="password">
+      Password:</label>
+    <input type="password" id="password" placeholder="Password" minlength="6" maxlength="12" required><br><br>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" placeholder="example@gmail.com" required><br><br>
+
+    <label for="phone">Phone #:</label>
+    <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+
+    <label for="bdy">BirthDate:</label>
+    <input type="date" id="bdy" required><br><br>
+
+    <label for="quantity">Quantity:</label>
+    <input type="number" min="1" max="99" id="quantity" value="1"><br><br>
+
+    <label for="title">Title:</label>
+
+    <label for="mr">Mr.</label>
+    <input type="radio" id="mr" name="title" value="mr">
+    <label for="mrs">Mrs.</label>
+    <input type="radio" id="mrs" name="title" value="mrs">
+    <label for="phd">PhD.</label>
+    <input type="radio" id="phd" name="title" value="phd">
+      <br><br>
+    <label for="payment">Payment:</label>
+    <select id="payment">
+      <option value="Visa">Visa</option>
+      <option value="mastercard">Master-Card</option>
+      <option value="giftcard">Gift-Card</option>
+    </select>
+    <br><br>
+
+    <label for="subscribe">Subscribe:</label>
+    <input type="checkbox" id="subscribe">
+      <br><br>
+
+    <label for="comment">Comment:</label>
+    <textarea id="comment" cols="30" rows="10"></textarea>
+
+      <br><br>
+    <label for="file">File:</label>
+    <input type="file" id="file" accept="image/png, image/jpeg">
+
+
+    <br><br>
+    <input type="reset">
+    <br><br>
+    <input type="submit">
+  </form>
+  </section>
+  <article>
+    <p>And now i am writing in this this call pragraph.</p>
+    <br>
+    <p>its call brake that i put in middle of the pragraph.</p>
+    <hr>
+    <p>its call horizontal thats work for creating a line beetween two pragraph.</p>
+    <p>hello its call <u>underline</u></p>
+    <p>its call <strong>strong</strong></p>
+  <p>its call <big>big</big></p>
+  <p>its call <small>small</small></p>
+  <p>its call <i>italic</i></p>
+  <p>its call <del>Deleted word</del></p>
+  <p>its call <tt>Monospaced</tt></p>
+  <p>its call <mark>Marked text</mark></p>
+  <p><div style="background-color: tomato;">This is a div its a block level element</div></p>
+  <p><span style="background-color: cyan;">This is span text its a inline element</span></p>
+  <a href="https://www.g-developer.com">G Developer</a>
+  <br>
+  <a href="https://www.gdeveloper.co.in" target="_blank">G Developer</a>
+  <br>
+  <img src="https://www.g-developer.com/assets/img/logo.png" alt="g-developer logo" height="40px" title="g-developer logo">
+  <br>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=MTCDHMc3WjtJwCrz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ <br>
+ <audio controls><source src="audio.mp3" type="audio/mp3
+  "></audio>
+ <br>
+  <video src="https://www.apple.com/105/media/us/iphone-15-pro/2023/2f337511-a940-4b57-b89c-1512b7507777/anim/highlights-titanium/large_2x.mp4" height="200px" width="500px" controls  >Apple</video>
+  <aside>
+    <p>its call <pre>pre is 
+      define like 
+      its a multi line 
+      text.
+    </pre></p>
+  </aside>
+  <p>its call 2<sup>3</sup></p>
+  <p>its call H<sub>2</sub>O</p>
+  <code>dxdiag</code>
+  <p>its a <b>bold</b></p>
+</article>
+<section>
+  <table>
+    <caption>Jain auto Empire Data</caption>
+    <thead>
+      <tr>
+        <th colspan="2">Laxmi</th>
+        <th>Prabha</th>
+        <th>Jailaxmi</th>
+        <th>Taj</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>13</td>
+        <td>20</td>
+        <td>15</td>
+        <td>08</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+
+  <form action="/action.php">
+<input type="text" placeholder="First Name">
+<br>
+<br>
+<input type="text" placeholder="Last Name">
+<br>
+<br>
+<input type="email" placeholder="www.example@gmail.com">
+<br>
+<br>
+<input type="password" placeholder="password">
+<br>
+<br>
+<label for="Male1">
+  <input type="radio" value="Male" name="gender" id="Male1">Male
+</label>
+<label for="Female2">
+  <input type="radio" value="Female" name="gender" id="Female2">Female
+</label>
+<section>
+  <p>Which 2 subject you don't Want?</p>
+  <label for="Hindi">  
+    <input type="checkbox">Hindi
+  </label>
+  <br>
+  <br>
+  <label for="English">
+    <input type="checkbox" value="English" name="subject">English
+  </label>
+  <br>
+  <br>
+  <label for="History">
+    <input type="checkbox" value="History" name="subject">History
+  </label>
+  <br>
+  <br>
+  <label for="Sceince">
+    <input type="checkbox" value="Sceince" name="subject">Sceince
+  </label>
+  <br>
+  <br>
+  <label for="Math">
+    <input type="checkbox" value="Math" name="subject">Math
+  </label>
+</section>
+<br>
+<h3>Select Your State</h3>
+<select name="city" id="city">
+  <option value="Delhi">Delhi</option>
+  <option value="Rajasthan">Rajasthan</option>
+  <option value="Panjab">Panjab</option>
+  <option value="Karnataka">Karnataka</option>
+  <option value="Telangana">Telangana</option>
+  <option value="Andhra-pradesh">Andhra-pradesh</option>
+  <option value="Jharkhand">Jharkhand</option>
+  <option value="Mumbai">Mumbai</option>
+</select>
+<br>
+<textarea name="feedback" id="comment" cols="30" rows="10" placeholder="Comment me how is site?"></textarea>
+<button>Submit</button>
+  </form>
+</main>
+
+        <!-- footer -->
+<footer>
+  <hr>
+  Auther: G Developer <br>
+  &copy; copyright reserved <br>
+ <small> <a href="g-developer@fake.com">G-Developer@fake.com</a> </small>
+  <!-- <p>powered by <code><a href="#">G Developer</a></code> &#183</p> -->
+</footer>
+ </body>
+</html>
